@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2021AVP005Transiciones</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-style: Arial, Helvetica, sans-serif;
+        }
+        header{
+            text-align: center;
+            color: white;
+            background-color: rgb(14, 61, 105);
+            padding: 30px;
+            transition-duration: 1s;
+        }
+        header:hover{
+            color: black;
+            font-size: larger;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        nav{
+            background-color: rgb(41, 81, 143);
+            padding: 20px;
+            width: 20%;
+            height: 500px;
+            font-size: 15px;
+            float: left;
+            transition-duration: 1s;
+
+        }
+        nav:hover{
+            width: 100%;
+            font-size: x-large;
+            color: black;
+            font-size: 30px;
+                
+            
+        }
+        .boton {
+        background-color: rgb(51, 106, 151);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.5s, transform 0.5s;
+    }
+    
+    .boton:hover {
+        background-color: rgb(75, 57, 0);
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+        article{
+            background-color: rgb(86, 128, 206);
+            padding: 20px;
+            width: 80%;
+            height: 500px;
+            float: left;
+            font-size: larger;
+        }
+        article:hover{
+            background: red;
+            transition: background 2s linear;
+        }
+        #imagen {
+			width: 200px;
+			height: 200px;
+			transition: transform 0.5s;
+		}
+
+		#imagen:hover {
+			transform: scale(1.2);
+			cursor: pointer;
+		}
+
+        section::after{
+            clear: both;
+            display: table;
+            content: "";
+        }
+        footer{
+            background-color: rgb(165, 187, 228);
+            padding: 20px;
+            height: 200px;
+            text-align: center;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        #Lorem{
+			 font-size: large;
+		 }
+		 #Lorem:hover {
+			 font-size: x-large;
+			 border: medium solid white;				
+			 background-color: rgb(209, 138, 6);
+			 color: white;
+			 padding: 4px;
+			 -webkit-transition-delay: 100ms;
+			 -webkit-transition-property: background-color, color, padding,
+				 font-size, border;
+			 -webkit-transition-duration: 500ms;				
+		 }
+         #li{
+			color: green;
+			transition: color 0.5s;
+		}
+
+		#li:hover {
+			color: red;
+			cursor: pointer;
+		}
+    </style>
+</head>
+<body>
+     <P>
+        4AVP López Chavira Brunette Sofía  <br>
+        2132506107214 Transiciones <br>
+        2132506107214 P004 01 López Chavira Brunette Sofía 4AVP <br>
+        12bslc@gmail.com <br>
+        23/02/2023 <br>
+        <hr>
+    </P>
+    <header>
+        <h1>Transiciones</h1>
+    </header>
+    <section>
+        <nav>
+        <ul>
+            <li><a id="enlace" href="#">Clickea</a></li>
+            <li><a id="enlace" href="#">Para</a></li>
+            <li><a id="enlace" href="#">Transiciones</a></li>        
+            <br><br>
+            <img id="imagen" src="https://via.placeholder.com/200">
+
+        </ul>
+    </nav>
+    <article>
+        <h3>INICIO</h3>
+        <span id="Lorem"><b>Lorem</b></span> ipsum dolor sit amet, consectetur adipisicing elit. Totam ipsa consequatur at, itaque quibusdam qui facilis, eius repudiandae sunt, inventore hic obcaecati nemo reprehenderit earum consequuntur commodi. Nobis, iure vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni delectus asperiores praesentium atque eveniet, consequatur ducimus sed consectetur id facilis. Error nesciunt in quod veritatis voluptatibus adipisci inventore necessitatibus tempore!
+        <br><br>
+        <button class="boton">Haz clic en mí</button>   
+        <br><br>
+    </article>
+</section>
+    
+
+
+    <footer>
+        <marquee>Brunette Sofia Lopez Chavira &copy; 23/02/2023</marquee>
+        
+    </footer>
+    
+</body>
+</html>
